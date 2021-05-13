@@ -1,0 +1,25 @@
+{
+  "name": "fizz-buzz-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "jest": "^26.6.3",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@types/jest": "^26.0.23"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
